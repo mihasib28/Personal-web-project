@@ -1,0 +1,183 @@
+.top-container {
+    background-color: #e4f9f5;
+    height: 920px;
+    
+}
+
+
+.title-text {
+    text-align: center;
+    padding-top: 100px;
+    color: #66bfbf;
+}
+
+.title-text > h1 {
+    font-family: "Sacramento", cursive;
+    font-weight: 600;
+    font-size: 150px;
+}
+
+.title-text > h2 {
+    font-size: 50px;
+}
+
+.midcontainer {
+    text-align: center;
+    padding: 100px;
+}
+
+.photo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.Hello {
+    
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#skills {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.section-title {
+    font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  color: #66bfbf;
+  margin-bottom: 50px;
+  margin-top: 100px;
+
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.skilltext {
+    max-width: 600px;
+    text-align: left;
+}
+
+.skilltext h3 {
+    color: #11999e;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #66bfbf;
+    color: aliceblue;
+}
+
+.footer-container {
+    height: 250px;
+    background-color: #66bfbf;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+    padding: 50px;
+    
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.Copyright {
+    color: whitesmoke;
+}
+
+.underline {
+  position: relative;
+}
+
+.underline::before
+ {
+  content: '';
+  width: 60px;
+  margin-left: 15px;
+  position: absolute;
+  height: 4px;
+  background-color: #66bfbf;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+}
+
+@media (min-width: 380px) and (max-width: 767px) {
+  .skill {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .skill-text {
+    text-align: center;  
+    
+  }
+
+  .top-container {
+    height: 778px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-text h1 {
+    font-size: 5rem;
+  }
+
+  .title-text h2 {
+    font-size: 30px;
+  }
+
+  .skilltext h3 {
+    text-align: center;
+    
+  }
+
+  .underline::before
+ {
+  content: '';
+  width: 35px;
+  margin-left: 8px;
+  position: absolute;
+  height: 3px;
+  background-color: #66bfbf;
+  left: 0;
+  right: 0;
+  bottom: 1px; 
+}
+
+.photo {
+   height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 100px; 
+}
+}
+
+
+
+
+
+
